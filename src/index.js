@@ -1,12 +1,12 @@
 // 1
-// let time = 0;
-// const interval = setInterval(() => {
-//   time++;
-//   alert(time);
-//   if (time === 5) {
-//     clearInterval(interval);
-//   }
-// }, 1000);
+let time = 0;
+const interval = setInterval(() => {
+  time++;
+  alert(time);
+  if (time === 5) {
+    clearInterval(interval);
+  }
+}, 1000);
 
 // 2
 const btnColor = document.querySelector("#btnColor");
