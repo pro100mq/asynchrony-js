@@ -1,0 +1,2 @@
+const t=document.querySelector("#btnColor");setInterval(()=>{let o=Math.round(255*Math.random()+0),r=Math.round(255*Math.random()+0),a=Math.round(255*Math.random()+0),n=`rgb(${o}, ${r}, ${a})`;t.style.backgroundColor=n,t.style.color=`rgb(${Math.round(255*Math.random()+0)}, ${Math.round(255*Math.random()+0)}, ${Math.round(255*Math.random()+0)})`},1e3);const o=document.querySelector("#textSize");setInterval(()=>{let t=Math.round(30*Math.random()+1);o.style.fontSize=`${t}px`},1e3);
+//# sourceMappingURL=asynchrony-js.8f4e988f.js.map
